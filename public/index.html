@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahan Sunuwar | Cybersecurity Portfolio</title>
+    <meta
+      name="description"
+      content="Professional cybersecurity portfolio of Mahan Sunuwar featuring projects, achievements, and security expertise."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="grid-overlay" aria-hidden="true"></div>
+    <header class="site-header">
+      <div class="brand">MS</div>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero reveal">
+        <p class="eyebrow">Cybersecurity Portfolio</p>
+        <h1 id="name">Mahan Sunuwar</h1>
+        <p id="role" class="lead"></p>
+        <p id="summary" class="hero-summary"></p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" id="emailLink" href="#">Contact Me</a>
+          <a class="btn btn-ghost" id="linkedinLink" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn btn-ghost" id="githubLink" href="#" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+        <ul id="metrics" class="metrics"></ul>
+      </section>
+
+      <section class="panel reveal">
+        <h2>Core Expertise</h2>
+        <div id="expertise" class="tag-grid"></div>
+      </section>
+
+      <section id="projects" class="panel reveal">
+        <div class="section-head">
+          <h2>Featured Projects</h2>
+          <p>Security initiatives with measurable outcomes.</p>
+        </div>
+        <div id="projectGrid" class="card-grid"></div>
+      </section>
+
+      <section id="achievements" class="panel reveal">
+        <div class="section-head">
+          <h2>Achievements</h2>
+          <p>Leadership, recognition, and community impact.</p>
+        </div>
+        <div id="achievementList" class="timeline"></div>
+      </section>
+
+      <section class="panel reveal">
+        <div class="section-head">
+          <h2>Certifications</h2>
+          <p>Professional credentials in cybersecurity.</p>
+        </div>
+        <div id="certificationList" class="certifications"></div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer reveal">
+      <p>Open to security engineering, SOC, and incident response opportunities.</p>
+      <a id="footerEmail" href="#">mahan.sunuwar@example.com</a>
+    </footer>
+
+    <script src="/assets/main.js" defer></script>
+  </body>
+</html>
